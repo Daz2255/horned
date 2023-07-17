@@ -1,0 +1,9 @@
+.header {
+  color: lightskyblue;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: 800;
+}

@@ -4,7 +4,7 @@ import HornedBeast from "../hornedbeast/HornedBeast";
 
 export default function Main() {
   return (
-    <div>
+    <div className="Main">
       <HornedBeast
         title="Uniwhal"
         imgUrl="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"

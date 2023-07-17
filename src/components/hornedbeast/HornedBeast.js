@@ -1,4 +1,5 @@
 import React from "react";
+import "./HornedBeast.css";
 
 export default function HornedBeasts({ title, imgUrl, altText, description }) {
   return (
