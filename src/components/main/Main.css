@@ -1,6 +1,21 @@
-.Main {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  justify-content: center;
+/* Set first column */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* make responsive for larger screens */
+@media screen and (min-width: 370px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  /* Stop images overlapping */
+  .grid-container img {
+    max-width: 100%;
+    height: auto;
+  }
 }
