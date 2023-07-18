@@ -5,6 +5,7 @@
   gap: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  justify-items: center;
 }
 
 /* make responsive for larger screens */
@@ -15,7 +16,10 @@
 
   /* Stop images overlapping */
   .grid-container img {
-    max-width: 100%;
-    height: auto;
+    /*max-width: 100%;
+    height: auto;*/
+    width: 100%; /* Set a fixed width for all images */
+    height: 150px; /* Set a fixed height for all images */
+    object-fit: cover;
   }
 }
