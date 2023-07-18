@@ -9,7 +9,7 @@
 }
 
 /* make responsive for larger screens */
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 270px) {
   .grid-container {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }

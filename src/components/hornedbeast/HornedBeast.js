@@ -10,7 +10,7 @@ export default function HornedBeast({ data }) {
   };
 
   return (
-    <div>
+    <div className="HornedBeast">
       <h3>{data.title}</h3>
       <img
         src={data.image_url}
