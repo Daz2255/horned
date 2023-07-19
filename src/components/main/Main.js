@@ -1,9 +1,8 @@
 import React from "react";
 import "./Main.css";
 import HornedBeast from "../hornedbeast/HornedBeast";
-import data from "../data.json";
 
-export default function Main() {
+export default function Main({ data }) {
   return (
     <div className="grid-container">
       {data.map((beast) => (
