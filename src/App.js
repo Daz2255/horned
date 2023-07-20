@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./Reset.css";
 import "./App.css";
 import Header from "./components/header/Header";
@@ -6,10 +7,17 @@ import Footer from "./components/footer/Footer";
 import data from "./components/data.json";
 
 function App() {
+  const [selectedHorns, setSelectedHorns] = useState("all");
+
+  // Define the handleHornsChange function to update selectedHorns state
+  const handleHornsChange = (event) => {
+    setSelectedHorns(event.target.value);
+  };
+
   return (
     <div className="App">
-      <Header />
-      <Main data={data} />
+      <Header data={data} onHornsChange={handleHornsChange} />
+      <Main data={data} selectedHorns={selectedHorns} />
       <Footer />
     </div>
   );

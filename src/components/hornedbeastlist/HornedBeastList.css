@@ -1,0 +1,18 @@
+select {
+  padding: 8px 16px;
+  font-family: "Pangolin", cursive;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+  margin-right: 2rem;
+}
+
+select option {
+  font-size: 16px;
+  font-family: "Pangolin", cursive;
+}
